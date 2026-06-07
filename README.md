@@ -131,3 +131,10 @@ POST /login (email + password)
 - 전체 회원 수
 - 전체 상품 수
 - 재고 없는 상품 수 (stock = 0)
+
+## 과제 진행 기록
+
+- 기반 프로젝트 Fork 및 Clone 완료
+- Docker MySQL 컨테이너 실행 확인
+- Spring Boot 애플리케이션 실행 확인
+- admin 계정 로그인 확인
