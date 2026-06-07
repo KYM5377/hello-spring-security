@@ -52,5 +52,13 @@
         </div>
     </div>
 </div>
+<footer class="text-center text-muted mt-5 mb-3">
+    <hr>
+    <p>
+        실습 수행 일시:
+        <span th:text="${#temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss')}"></span>
+        │ 학번: 2191173 │ 성명: 김용민
+    </p>
+</footer>
 </body>
 </html>
